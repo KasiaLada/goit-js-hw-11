@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .loader,
+  .error {
+    margin-top: 20px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .photo-card {
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    font-size: 14px;
+  }
+  
