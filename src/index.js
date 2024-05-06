@@ -71,7 +71,7 @@ function smoothScrollAfterAddingImages() {
       .firstElementChild.getBoundingClientRect();
 
     window.scrollBy({
-      top: cardHeight * 2, // Przewiń o wysokość dwóch kart
+      top: cardHeight * 2, 
       behavior: 'smooth',
     });
   }
@@ -96,6 +96,8 @@ function updateLightbox() {
   if (lightbox) {
     lightbox.refresh();
   } else {
-    lightbox = new SimpleLightbox('.gallery a', {});
+    lightbox = new SimpleLightbox('.gallery a', {
+        
+    });
   }
 }
